@@ -1,0 +1,115 @@
+#container {
+    display: flex;
+    border: 2px  #444;
+    justify-content: space-around;
+}
+
+/* Taille des Divs*/
+.element {
+    width: 350px;
+    height: 800px;
+}
+
+/* Background des Divs */
+.element:nth-child(1){
+    background-color:white;
+}
+.element:nth-child(2){
+    background-color:white;
+}
+.element:nth-child(3){
+    background-color:white;
+}
+
+/* Police d'écriture */
+h2,h3 {
+    font-family: sans-serif;
+}
+hr {
+    height: 1px; 
+    color: #839D2D;
+    background-color: #9F9F9F;
+    width: 100%;
+    border: none;
+}
+h2 {
+    color: #0092EE;
+
+}
+
+/* Tailles des 3 images */
+img{
+    height:220px ;
+    width: 350px;
+    
+
+}
+p {
+    font-family: sans-serif;
+    color: black;
+}
+/* Css gros titre */
+.bloc1 {
+    background-color: #1B93EE;
+    margin-right: 275px;
+    color: white;
+}
+.bloc4 {
+    background-color: #1B93EE;
+    margin-right: 245px;
+    color: white;
+    
+}
+.bloc2  {
+    background-color: #C12050;
+    margin-right: 245px;
+    color: white;
+}
+.bloc3 {
+    background-color: #C12050;
+    margin-right: 255px;
+    color: white;
+}
+
+
+
+/* Css du texte des imgs */
+#img1 {
+    background-color: #1B93EE;
+    font-family: sans-serif;
+    color: white;
+}
+#img {
+    background-color: #C12050;
+    font-family: sans-serif;
+    color: white;
+    position:absolute;
+    top:200px; 
+    width:80px; 
+    height:20px; 
+    z-index:2;
+    font-size:120%
+}
+
+.box1 {
+    position:relative; 
+    height:225px;
+}
+
+.box2 {
+    position:absolute;
+    z-index:1;
+}
+.box3 {
+    position:absolute;
+    top:200px;
+    width:80px;
+    height:20px;
+    z-index:2;
+    font-size:120%
+}
+
+strong {
+    
+    font-size: 16px;
+}
